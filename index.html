@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body 
+{
+  background-color:white;
+  color:black;
+  font-family:sans-serif;
+  font-size:25px;
+}
+.dark-mode 
+{
+  background-color:black;
+  color:white;
+}
+</style>
+</head>
+<body>
+<h2>dark-mode/light mode</h2>
+<p>Click the button for dark mode and light mode.</p>
+<button onclick="myFunction()">Toggle dark mode</button>
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+</body>
+</html>
